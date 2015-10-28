@@ -1,0 +1,44 @@
+/*ESTILO DEL HOME*/
+
+.top-section {
+
+    background-image: url(../img/fondo1.jpg);
+    background-repeat: no-repeat;
+    background-position: 25% center;
+    padding-bottom: 40px;
+
+
+    min-height: auto;
+    padding-top: 180px;
+  
+    color: #FFF;
+}
+
+.top-section h1{
+
+	font-size: 130px;
+      text-align: center;
+}
+
+#segundo {
+
+	font-family: OpenSL;
+	font-size: 18px;
+    text-align: justify;
+}
+
+#programaB{
+    margin-top: 30px;
+    height: auto;
+    background-color: transparent;
+    padding-top: 15px;
+    padding-bottom:  15px;
+    padding-left: 50px;
+    padding-right: 50px;
+    vertical-align: center;
+}
+
+#programaB a, a:link, a:hover, a:visited,  a:active{
+
+    color: #fff;
+}

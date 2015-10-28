@@ -1,0 +1,41 @@
+/*ESTILO SECTION PARTICIPANTS*/
+
+.participants-section {
+    height: auto;
+    padding-top: 80px;
+    text-align: center;
+    background: #1C1C1C;
+    padding-bottom: 100px;
+}
+
+.participants-section img {
+	-webkit-filter: grayscale(100%);
+	filter: grayscale(100%);
+}
+
+.participants-section img:hover {
+	-webkit-filter: grayscale(0%);
+	filter: grayscale(0%);
+}
+
+.btn{
+	padding: 0px;
+}
+
+#tituloParti h1{
+
+	color: #FFF;
+	margin-bottom: 50px;
+	text-align: left;
+	letter-spacing: 4px;
+}
+
+@media(max-width:500px) {	
+
+	.participants-section img {
+		
+		padding-bottom: 20px;
+	}	
+	
+
+}

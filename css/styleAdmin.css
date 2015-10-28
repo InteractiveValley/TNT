@@ -1,0 +1,28 @@
+/*ESTILO DE LA PAGINA*/
+
+@import url(menuAdmin.css);
+
+@font-face
+{
+  font-family: "OpenS";
+  src: url("../fonts/OpenSans.ttf");
+}
+
+@font-face
+{
+  font-family: "OpenSL";
+  src: url("../fonts/OpenSansL.ttf");
+}
+
+body {
+    width: 100%;
+    height:auto;
+    font-family: OpenS !important;
+}
+
+html {
+    width: 100%;
+    height: auto;
+
+}
+

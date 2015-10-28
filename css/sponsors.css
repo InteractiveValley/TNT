@@ -1,0 +1,35 @@
+/*ESTILO SECTION SPONSORS*/
+
+.sponsors-section {
+    height: auto;
+    padding-top: 100px;
+    background: #fff;
+    padding-bottom: 50px;
+}
+
+.sponsors-section img{
+	
+	/*border: 5px solid #ccc;*/
+	float: left;
+	margin-top: 15px;
+	margin-bottom: 30px;
+	width: 100%; 
+
+	-webkit-transition: margin 0.5s ease-out;
+	-moz-transition: margin 0.5s ease-out;
+	-ms-transition: margin 0.5s ease-out;
+	transition: margin 0.5s ease-out;
+}
+
+.sponsors-section img:hover{
+
+	margin-top: 2px;
+}
+
+#tituloSponsors h1{
+
+	color: #000;
+	font-size: 55px !important;
+	margin-bottom: 50px;
+	letter-spacing: 4px;
+}

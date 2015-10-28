@@ -1,0 +1,56 @@
+/*ESTILO DEL MENU*/
+
+.navbar {
+    margin-top: 40px;
+    background-color: white;
+}
+
+.navbar-header{
+    padding: 0px;
+    margin: -10px;
+}
+
+.navbar-brand{
+    padding: 0px 15px;
+}
+
+.navbar-default .navbar-nav>li>a{
+    color: #000;
+    letter-spacing: 1px;
+}
+
+.navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:focus, .navbar-default .navbar-nav>.active>a:hover{
+    color: #000;
+    background-color: transparent;
+    border-bottom: 2px solid #000;
+}
+
+.navbar-default .navbar-nav>li>a:focus, .navbar-default .navbar-nav>li>a:hover{
+    color: #000;
+    background-color: transparent;
+    border-bottom: 2px solid #000;
+}
+
+@media(min-width:767px) {
+    .navbar {
+        padding: 20px 0;
+        -webkit-transition: background .5s ease-in-out,padding .5s ease-in-out;
+        -moz-transition: background .5s ease-in-out,padding .5s ease-in-out;
+        transition: background .5s ease-in-out,padding .5s ease-in-out;
+
+        min-height: 140px;
+    }
+
+    .navbar-right{
+        
+        margin-top: 25px;º
+    }
+
+    .top-nav-collapse {
+        padding: 10px 0;
+    }
+
+    .navbar-nav>li{
+        padding-left: 15px;
+    }
+}
